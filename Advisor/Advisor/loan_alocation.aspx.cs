@@ -13,10 +13,10 @@ public partial class Advisor_Loan_allocation : System.Web.UI.Page
 
     }
 
-    protected void new_customer(object sender, EventArgs e)
+    protected void Loan_calc(object sender, EventArgs e)
     {
 
-
+        // returns wcf error Additional information: Failed to convert parameter value from a String to a DateTime.
         bool Loan_calc = wcf_ref.InsertLoanAllocation(cal.ToString(), Employee_ID.Text, Customer_ID.Text, Account_num.Text, Loan_Type.Text, Loan_Amount.Text, Intrest_Rate.Text, Period.Text);
         //check that the customer was created successfully
         if (Loan_calc == true)

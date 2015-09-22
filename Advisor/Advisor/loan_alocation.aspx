@@ -46,7 +46,7 @@
                                 </div>
          <div class="row">
 
-    <asp:Button ID="Submit" runat="server" Text="Submit" />
+    <asp:Button ID="Submit" runat="server" Text="Submit" OnClick="Loan_calc" />
  </div>
   </form>
         </div>

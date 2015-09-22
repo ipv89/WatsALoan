@@ -36,7 +36,7 @@
     <asp:TextBox ID="Email" runat="server"></asp:TextBox>
    </div>
 
-    <asp:Button ID="Submit" runat="server" Text="Submit" />
+    <asp:Button ID="Submit" runat="server" Text="Submit" OnClick="new_customer" />
          </form>
 
 
